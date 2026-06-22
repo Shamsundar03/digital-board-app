@@ -1,0 +1,23 @@
+/* src/App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow: hidden; /* Prevent bouncing on touch screens */
+  font-family: sans-serif;
+}
+
+.tool-btn {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.tool-btn:hover, .tool-btn:active {
+  background: #555;
+}
